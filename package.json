@@ -2,7 +2,7 @@
   "name": "emotion-normalize",
   "version": "8.0.0",
   "description": "Normalize file for emotion JSS library",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/infinum/emotion-normalize.git"
