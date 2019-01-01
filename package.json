@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/infinum/emotion-normalize#readme",
   "scripts": {
-    "prebuild": "./bin/build.js",
+    "prefetch": "./bin/build.js",
     "build": "babel -d dist src",
-    "update": "ncu -u normalize.css",
-    "prepublish": "npm run update && npm run prebuild",
+    "update": "npm i normalize.css@latest && npm run prefetch",
+    "prepare": "npm run build",
     "postversion": "git push origin master --tags && npm publish"
   },
   "devDependencies": {
