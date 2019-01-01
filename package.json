@@ -40,7 +40,7 @@
     "emotion": "^8.0.8",
     "eslint": "^4.16.0",
     "eslint-plugin-import": "^2.8.0",
-    "normalize.css": "^8.0.0",
+    "normalize.css": "^8.0.1",
     "npm-check-updates": "^2.14.0"
   },
   "peerDependencies": {
